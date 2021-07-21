@@ -6,8 +6,9 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
 import './ProductCard.css'
-
+import skirt1 from '../assets/skirt1.png'
 import { Link } from 'react-router-dom';
+
 
 
 
@@ -71,7 +72,7 @@ class ViewDetails extends React.Component {
   }
 }
 function ProductImageCard(props) {
- 
+//  const path = require(props.propValues.image)
     return (
         <Card style={{
           height: '100px'

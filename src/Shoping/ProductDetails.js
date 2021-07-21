@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 import { useHistory } from "react-router-dom";
 import {Link } from 'react-router-dom';
-
+import Review from './Review'
 toast.configure()
 export default function ProductDetails(props) {
     
@@ -55,12 +55,20 @@ function ProductDetailsCard(props){
             <div>
                 <div ></div>
                 <Card style={{
-                    width: 500,
+                    width: 700,
                     backgroundColor: "white",
                 }}>
                     <CardContent>
                         <div>
-                            <div><ViewImageCard propValues={props} /></div>
+                            <h3>{props.productData.prodame}</h3>
+                            <div className="row">
+                                <div className="col">
+                                <ViewImageCard propValues={props} />
+                                </div>
+                                <div className="col">
+                                   <Review propId={props.productData.prodId}/>
+                                </div>
+                                </div>
                             <Button size="small" variant="contained">Limited time Deal</Button>
 
                             <div>
@@ -95,7 +103,9 @@ function ProductDetailsCard(props){
 function ViewImageCard(props) {
     
     return (
-        <Card>
+        <Card style={{
+            height:200
+        }}>
             <img src={props.propValues.productData.image} />
 
         </Card>

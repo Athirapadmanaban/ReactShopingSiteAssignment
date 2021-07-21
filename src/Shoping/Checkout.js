@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link, BrowserRouter } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import store from './ShopStore';
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
