@@ -1,0 +1,21 @@
+.homeBody {
+    /* background-image: url(../assets/background2.jfif); */
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(223, 213, 213);
+    background-image:  linear-gradient(to bottom right, #fcfcc0db, #e49eaa);
+}
+.section-login {
+    padding-left: 10%;
+}
+.section-banner {
+    padding-left: 14%;
+}

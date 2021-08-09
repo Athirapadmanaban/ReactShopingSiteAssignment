@@ -7,18 +7,21 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
   }
   .App-body {
     background-color:white;
-    background-image: url(../assets/backgroundImg.jfif);
+    /* background-image: url(../assets/background2.jfif); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     font-size: calc(10px + 2vmin);
     color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     
   }

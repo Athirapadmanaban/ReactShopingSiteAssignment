@@ -23,10 +23,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+   background-image: linear-gradient(to bottom right, #FFCE00, #FE4880);
 }
 .App-body {
   background-color:white;
-  background-image: url(./assets/background2.jfif);
+  /* background-image: url(./assets/background2.jfif); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,4 +50,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.logout {
+position: absolute;
+    /* left: 51px; */
+    right: 15px;
 }

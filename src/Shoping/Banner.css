@@ -1,0 +1,27 @@
+.banner-card {
+    height: 378px;
+    border-radius: 30px;
+    background-color: rgb(223, 213, 213);
+    
+     /* background-repeat: no-repeat; */
+    
+}
+.banner-image {
+    /* background-image: url(../assets/bannerImg.jfif);  */
+   
+    height: 68vh
+}
+.banner-content {
+    background-image:  linear-gradient(to bottom right, #fcfcc0db, #e49eaa);
+    padding-top: 20%;
+}
+.banner-text {
+    font-weight: 700;
+}
+.small-content {
+    font-size: 15px;
+}
+.banner-image img {
+    height: 100%;
+    width: 110%;
+}

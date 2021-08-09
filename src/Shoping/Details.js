@@ -6,17 +6,17 @@ import Typography from "@material-ui/core/Typography";
 export default function Review(props) {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        setProducts(productDetails)
+        setProducts(productDetails);
     }, [])
     return (
         <div>
 
             <Card
                 style={{
-                    backgroundColor: "pink",
+                    backgroundColor: "#FFF",
                 }}
             >
-               <h5>details</h5>
+               <h5>Product details</h5>
                 <Typography
                     color="textPrimary"
                 >

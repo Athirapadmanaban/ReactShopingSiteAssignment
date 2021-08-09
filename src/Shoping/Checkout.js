@@ -21,10 +21,15 @@ class Checkout extends React.Component {
                 <h3>
                     See your orders
                 </h3>
-
+                <div
+                >
+                <div className="row"
+                >
                 {store.getState().products.map((prod) => <ViewCheckoutPage key={prod.prodId} prod={prod} />)}
+                </div>
+                </div>
                 <div className="pl-3 pt-3">
-                    <Link to={{ pathname: '/' }}>
+                    <Link to={{ pathname: '/', state: true }}>
 
                         <Button size="small" variant="contained" color="primary">Checkout</Button>
                         <div>
@@ -33,17 +38,14 @@ class Checkout extends React.Component {
 
                     </Link>
                 </div>
-                <Link to={{ pathname: '/' }}>
-
-                    Back to home page
-
-                </Link>
+               
             </div>
         )
     }
 }
 function ViewCheckoutPage(props) {
     return (
+        <div stlye={{}} className="mb-2 col-4">
         <Card
             style={{
                 width: 400,
@@ -58,13 +60,19 @@ function ViewCheckoutPage(props) {
                 </div>
             </CardContent>
         </Card>
+        </div>
     )
 }
 function ViewImageCard(props) {
 
     return (
         <Card style={{ height: '200px' }}>
-            <img src={props.propValues.image} />
+            <img 
+            style={{
+                height: '199px',
+                width: '169px'
+            }}
+            src={props.propValues.image} />
 
         </Card>
 

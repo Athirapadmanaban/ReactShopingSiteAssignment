@@ -1,37 +1,172 @@
-
 [
-    {
-      "prodId": 1,
-      "prodame": "Skirt1",
-      "price": 2999,
-      "totalPrice": 2999,
-      "image": "skirt1.png",
-      "desc": "Women black Striped Straight Kurta",
-      "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
-    },
-    {
-      "prodId": 2,
-      "prodame": "Skirt2",
-      "price": 2999,
-      "totalPrice": 2999,
-      "image": "skirt2.jfif",
-      "desc": "Women black Striped Straight Kurta",
-      "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
-    },
-    {
-      "prodId": 3,
-      "prodame": "Skirt2",
-      "price": 1200,
-      "totalPrice": 1200,
-      "image": "skirt3.jfif",
-      "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
-    },
-    {
-        "prodId": 4,
-        "prodame": "Skirt2",
-        "price": 1200,
-        "totalPrice": 1200,
-        "image": "skirt3.jfif",
-        "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
-      }
-  ]
+  {
+    "prodId": 1,
+    "prodame": "Skirt1",
+    "price": 2999,
+    "totalPrice": 2999,
+    "image": "skirt1.png",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 2,
+    "prodame": "Skirt2",
+    "price": 2999,
+    "totalPrice": 2999,
+    "image": "skirt2.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 3,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 4,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "image4.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 5,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "image5.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 6,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt4.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 7,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt6.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 8,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 9,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt6.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 10,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 11,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 12,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 13,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 14,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 15,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt6.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 16,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  },
+  {
+    "prodId": 17,
+    "prodame": "Skirt2",
+    "price": 1200,
+    "totalPrice": 1200,
+    "image": "skirt3.jfif",
+    "desc": "Women black Striped Straight Kurta",
+    "rating": 4,
+    "details": "Brown and Navy Blue striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+  }
+]

@@ -1,5 +1,5 @@
 
-var initialState = { products: [] }
+var initialState = { products: []}
 
 export default function updateProductName(state = initialState, action) {
 
@@ -22,7 +22,11 @@ export default function updateProductName(state = initialState, action) {
         case 'UPDATE_QTY':
              var updatedQtyState = {...state, products:updateProductQty(state.products, action) }         
              return updatedQtyState;
-           
+        //  case 'UPDATE_LOGGEDIN':
+        //      var loginStatus = action.data.loggedin;
+        //      console.log('----loggedin--')
+        //      console.log(loginStatus)
+        //      return loginStatus
         default:
             return state;
     }

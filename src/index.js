@@ -6,12 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter } from 'react-router-dom'
 import ProductDetails from './Shoping/ProductDetails';
 import Checkout from './Shoping/Checkout'
+import HomeScreen from './Shoping/HomeScreen'
+import Home from './Shoping/Home'
 const routs = (
   < BrowserRouter >
      <div>
         <Route exact path="/" component={App} />
         <Route path="/productDetails" component={ ProductDetails } />
         <Route path="/checkout" component={ Checkout } />
+        <Route path="/home" component={ Home } />
     
      </div>
   </ BrowserRouter >

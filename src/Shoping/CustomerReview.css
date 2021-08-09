@@ -1,0 +1,32 @@
+
+.reviewTitle {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: -webkit-body;
+    padding-bottom: 3%;
+}
+.section-comment {
+font-family: ui-monospace;
+font-size: 22px;
+}
+.section-name {
+font-family: unset;
+font-size: 15px;
+}
+.submit-comment {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880 );
+    background-size: 200%;
+    background-position: 0%;
+    transition: 00.4s;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100px;
+
+}
+.submit-comment:hover {
+    background-position: 100% 0%;
+}
